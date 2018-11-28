@@ -1,0 +1,426 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,300,700');
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0px;
+}
+
+html,
+body {
+    min-height: 100%;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+    min-height: 100%;
+}
+
+.header {
+    height: 119px;
+}
+
+.header .logo {
+    margin: 63px 98px;
+    width: 185px;
+    height: 22px;
+    float: left;
+}
+
+.header .menu {
+    float: left;
+    margin-top: 63px;
+    margin-left: 30%;
+}
+
+.header .menu li {
+    float: left;
+    list-style-type: none;
+}
+
+.header .menu li a {
+    color: #8c8c8c;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    text-decoration: none;
+    display: block;
+    padding: 0px 20px;
+}
+
+.header .menu li a img {
+    width: 21px;
+    height: 21px;
+}
+
+.header .menu li a:hover {
+    color: #212121;
+    font-weight: 700;
+    border-bottom: 1px solid black;
+}
+
+.furniture_types_menu {
+    height: 70px;
+    background-color: #f4f4f4;
+}
+
+.furniture_types_menu .menu {
+    position: absolute;
+    height: 13px;
+    margin-left: 360px;
+    margin-top: 28px;
+    padding: inherit;
+}
+
+.furniture_types_menu .menu li {
+    float: left;
+    list-style-type: none;
+    padding: inherit;
+}
+
+.furniture_types_menu .menu li a {
+    color: #6c6c6c;
+    font-size: 17.99px;
+    font-weight: 700;
+    transform: scaleY(1.0006);
+    padding: 0px 20px;
+    text-decoration: none;
+}
+
+.furniture_types_menu .menu li a:hover {
+    color: #212121;
+    font-size: 17.99px;
+    font-weight: 700;
+}
+
+.product_card {
+    height: 1556px;
+}
+
+.product_card .photo {
+    margin-top: 72px;
+    margin-left: 7.2%;
+    width: 41.7%;
+    float: left;
+}
+
+.product_card .photo main {
+    height: 26.8%;
+}
+
+.product_card .photo .variants {
+    margin-left: 150px;
+    display: block;
+}
+
+.product_card .photo .variants img {
+    padding-left: 0.7%;
+    padding-top: 0.5%;
+}
+
+.product_card .photo .variants img:hover {
+    outline: #9c9c9c 1px solid;
+}
+
+.product_card .description {
+    float: right;
+    width: 510px;
+    ;
+    margin-top: 5.6%;
+    margin-right: 9.7%;
+}
+
+.product_card .description .item_name {
+    color: #212121;
+    font-size: 35.98px;
+    font-weight: 700;
+    transform: scaleY(1.0005);
+    text-align: center;
+    line-height: 35.98px;
+}
+
+.product_card .description h3 {
+    color: #e53935;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18px;
+    transform: scaleY(1.0005);
+    text-align: center;
+    margin-top: 23px;
+}
+
+.product_card .description h2 {
+    font-family: Gotham;
+    color: #212121;
+    font-size: 72px;
+    font-weight: 300;
+    line-height: 72px;
+    transform: scaleY(1.0005);
+    text-align: center;
+    margin-top: 36px;
+}
+
+.product_card .description .buy_button {
+    color: #ffffff;
+    font-size: 21.99px;
+    font-weight: 700;
+    line-height: 71px;
+    transform: scaleY(1.0005);
+    background-color: #f44336;
+    box-shadow: 0px 2px 4.85px 0.15px rgba(33, 33, 33, 0.35);
+    height: 71px;
+    border-radius: 35px;
+    text-align: center;
+    margin-top: 31px;
+}
+
+.product_card .description .buy_button:hover {
+    background: #f44336 url(img/arrow-w.jpg) 334px 23px no-repeat;
+}
+
+.product_card .description .text {
+    color: #212121;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    transform: scaleY(1.0005);
+    margin-top: 45px;
+}
+
+.product_card .related_products {
+    position: absolute;
+    margin-top: 968px;
+    margin-left: 98px;
+}
+
+.product_card .related_products .products {
+    padding: 0px;
+}
+
+.product_card .related_products h1 {
+    float: left;
+    color: #212121;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 27px;
+}
+
+.product_card .related_products .explore_all {
+    line-height: 27px;
+    float: right;
+    text-decoration: none;
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+    width: 170px;
+}
+
+.product_card .related_products .explore_all:hover:after {
+    content: url(img/arrow.png);
+    margin-left: 30px;
+}
+
+.product_card .related_products .products {
+    list-style-type: none;
+    margin-top: 56px;
+    height: 400px;
+}
+
+.product_card .products li {
+    float: left;
+    display: inline-block;
+}
+
+.product_card .products li a {
+    display: block;
+}
+
+.product_card .products li a:hover {
+    outline: #9c9c9c 1px solid;
+}
+
+.product_card .products li:nth-child(1) {
+    padding-right: 30px;
+}
+
+.product_card .products li:nth-child(2) {
+    padding-right: 30px;
+}
+
+.footer {
+    height: 384px;
+    background-color: #f7f7f7;
+    width: 1366px;
+    min-height: 100%;
+}
+
+.footer .all_blocks {
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 99px;
+}
+
+.footer .all_blocks .contact_us {
+    float: left;
+    width: 221px;
+}
+
+.footer .all_blocks .contact_us h3 {
+    color: #6c6c6c;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18px;
+}
+
+.footer .all_blocks .contact_us p {
+    margin-top: 24px;
+    width: 221px;
+    height: 102px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+}
+
+.footer .all_blocks .useful_information {
+    float: left;
+    margin-left: 80px;
+}
+
+.footer .all_blocks .useful_information h3 {
+    color: #6c6c6c;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18px;
+}
+
+.footer .all_blocks .useful_information .line {
+    margin-top: 17px;
+    padding: 0px;
+}
+
+.footer .all_blocks .useful_information .left {
+    float: left;
+    width: 132px;
+    height: 62px;
+}
+
+.footer .all_blocks .useful_information .right {
+    float: right;
+    margin-left: 132px;
+    width: 187px;
+}
+
+.footer .all_blocks .useful_information .line li {
+    float: left;
+    list-style-type: none;
+    line-height: 26px;
+    width: 180px;
+}
+
+.footer .all_blocks .useful_information .line li a {
+    text-decoration: none;
+    color: #212121;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.footer .all_blocks .useful_information .line li a:hover {
+    color: #212121;
+    font-weight: 700;
+    border-bottom: 1px solid black;
+}
+
+.footer .all_blocks .subscribe {
+    float: right;
+    width: 363px;
+    margin-left: 78px;
+}
+
+.footer .subscribe h3 {
+    color: #6c6c6c;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18px;
+}
+
+.footer .subscribe p {
+    color: #212121;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    margin-top: 20px;
+}
+
+.footer .subscribe .form {
+    height: 48px;
+    margin-top: 26px;
+    position: relative;
+}
+
+.footer .subscribe .text {
+    width: 340px;
+    height: 46px;
+    border-width: 1px;
+    border-color: #d9dee1;
+    border-style: solid;
+    position: absolute;
+    padding-left: 19px;
+}
+
+.footer .subscribe .text::-webkit-input-placeholder {
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 48px;
+}
+
+.footer .subscribe .button {
+    width: 21px;
+    height: 21px;
+    background: #ffffff url(img/submit1.jpg) no-repeat center;
+    border-style: hidden;
+    position: absolute;
+    margin-left: 325px;
+    margin-top: 12px;
+}
+
+.footer .subscribe .button:hover {
+    border-style: solid;
+}
+
+.footer .all_blocks .last_line {
+    margin-top: 203px;
+}
+
+.footer .all_blocks .last_line .copyright {
+    float: left;
+    color: #6c6c6c;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.footer .all_blocks .last_line .social {
+    margin-left: 158px;
+    color: #6c6c6c;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.footer .last_line .conditions {
+    float: right;
+    margin-left: 172px;
+    color: #6c6c6c;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.footer .last_line .conditions:hover {
+    color: #212121;
+    font-weight: 700;
+}
